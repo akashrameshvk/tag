@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td>Name</td><td><input type="text" placeholder="Name" required></td>
+                
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input type="number" placeholder="age"></td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td><input type="email" placeholder="mail" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" ></td>
+            </tr>
+            <tr>
+                <td>PHONE No</td>
+                <td><input type="text"  pattern="[0-9]{10}" ></td>
+            </tr>
+            <tr>
+                <td>date</td>
+                <td><input type="date" placeholder="Date"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="gender" id="">Male <input type="radio" name="gender">female</td>
+            </tr>
+            <tr>
+                <td>Qualification</td>
+                <td><input type="checkbox">SSLC <input type="checkbox">PLUS TWO</td>
+            </tr>
+            <tr>
+                <td>District</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">..select...</option>
+                        <option value="">Kozhikode</option>
+                        <option value="">Kannur</option>
+                        <option value="">Wayanad</option>
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>Photo</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea name="" id="" cols="50" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit"> <button>Cancel</button></td>
+                
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
