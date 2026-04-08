@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    
+    <script>
+        let i=0;
+        var text="";
+        var array1=["dog","bird","cow","animal"];
+        var len = array1.length;
+        for(i=0;i<len;i++)
+    {
+        text+=array1[i]+"<br>";
+    }
+    document.getElementById("demo").innerHTML=text;
+
+
+var array2=["dog","bird","cat"];
+array2.push("animal");
+document.getElementById("demo1").innerHTML=array2
+array2.pop();
+document.getElementById("demo1").innerHTML=array2
+
+
+    </script>
+</body>
+</html>

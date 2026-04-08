@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <script>
+        var a=10;
+        var b=40;
+        var c=30;
+        if(a>b && a>c){
+            document.getElementById("demo").innerHTML=a+" is greater than" +b +"and" +c 
+        }
+        else if(b>c && b>a){
+            document.getElementById("demo").innerHTML=b+" is greater than"+a +"and" +c
+        }
+        else{
+            document.getElementById("demo").innerHTML=c+" is greater than"+b +"and"+b
+        }
+    </script>
+</body>
+</html>

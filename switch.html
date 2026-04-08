@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 style="font-family: 'Courier New', Courier, monospace; color:greenyellow; ">SWITCH Statements</h1>
+
+    <input type="text" id="demo">
+    <button onclick="display()">submit</button>
+    <input type="text" id="demo1">
+    <script>
+        function display()
+        {
+            var text=""
+            var a=Number(document.getElementById("demo").value)
+            switch(a){
+                case 1:text="case 1 match";
+                break;
+                case 2:text="case 2 match";
+                break;
+                case 3:text="case 3 match";
+                break;
+                default:text="deafualt";
+                break;
+            }
+            document.getElementById("demo1").value=text
+        }
+    </script>
+    
+</body>
+</html>
