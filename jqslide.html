@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<style>
+    #d1,#d2{
+        padding: 5px;
+        text-align: center;
+        background-color: red;
+        border: solid 1px black;
+    }
+    #d2{
+        background-color: yellow;
+        padding: 50px;
+        display: none;
+    }
+
+</style>
+<body>
+
+    <div id="d1">click to see change</div>
+    <div id="d2">HALO WORLD !...</div>
+
+
+    
+</body>
+
+<script>
+    $(document).ready(function(){
+        $("#d1").click(function(){
+            // $("#d2").slideDown(2000);
+            // $("#d2").slideUp(2000);
+            $("#d2").slideToggle(2000);
+
+            
+
+        });
+
+    });
+</script>
+</html>

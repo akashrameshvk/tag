@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <p id="pid">welcome to the world</p>
+
+    <button id="demo1">hide</button>
+        <button id="demo2">show</button>
+            <button id="demo3">toggle</button>
+
+
+    
+</body>
+<script>
+    $(document).ready(function(){
+        $("#demo1").click(function(){
+
+            $("#pid").hide(1000);
+        });
+
+        $("#demo2").click(function(){
+
+            $("#pid").show(1000);
+        });
+        $("#demo3").click(function(){
+
+            $("#pid").toggle(1000);
+        });
+
+    });
+</script>
+</html>

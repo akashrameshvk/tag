@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <style>
+    body {
+        margin: 0;
+        height: 100vh; 
+        display: flex;
+        justify-content: center;
+        align-items: center;     
+    }
+
+    .container {
+        text-align: center;
+    }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <p id="pid" style="font-size: 25px;">𝓗𝓮𝓵𝓵𝓸</p>
+    
+
+    <button id="demo1" style=" border-radius: 5px;padding: 12px 30px;">CLICK</button>
+        
+</div>
+
+    
+</body>
+<script>
+    $(document).ready(function(){
+        $("#demo1").click(function(){
+
+            $("#pid").hide(1000);
+        });
+        $("#demo1").click(function(){
+
+            $("#pid").css("color","red");
+            
+        });
+
+    });
+</script>
+
+
+</html>
