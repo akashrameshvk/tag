@@ -8,6 +8,14 @@
       .card:hover{
         color: red;
       }
+      iframe {
+    display: block;
+    border: none;
+}
+
+.demo1{
+    display: inline;
+}
     </style>
 
 
@@ -29,9 +37,79 @@
         <a class="nav-link active" aria-current="page" href="#" style="color: white;font-size: large;" >Home</a>
         <a class="nav-link" href="#" style="color: white;font-size: large;">Contact</a>
         <a class="nav-link" href="#" style="color: white;font-size: large;">About us</a>
+
+</div>
+    </div>
+
+
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  LOGIN
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+
+
+        <div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1">NAME</span>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="MAIL" aria-label="mail" aria-describedby="basic-addon2">
+  <span class="input-group-text" id="basic-addon2">@example.com</span>
+</div>
+
+<div class="mb-3">
+  <label for="basic-url" class="form-label">Your vanity URL</label>
+  <div class="input-group">
+    <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+  </div>
+  <div class="form-text" id="basic-addon4">Example help text goes outside the input group.</div>
+</div>
+
+<div class="input-group mb-3">
+  <span class="input-group-text">$</span>
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+  <span class="input-group-text">.00</span>
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+  <span class="input-group-text">@</span>
+  <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+</div>
+
+<div class="input-group">
+  <span class="input-group-text">With textarea</span>
+  <textarea class="form-control" aria-label="With textarea"></textarea>
+</div>
         
+
+
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Login</button>
       </div>
     </div>
+  </div>
+</div>
+        
+      
   </div>
   </div>
 </nav>
@@ -99,11 +177,47 @@
   </tbody>
 </table>
 
-<div id="dd" style="background-color: black; color: white;height: 50px; text-align: center;">@HOTEL DETAILS
+
+
+<div class="demo1" style="background-color: blue; gap: 20px; display: flex;" class="ms">
+    <div class="demo" >
+
+    
+
+<iframe width="600px" height="500px" src="https://www.youtube.com/embed/TF3QSc1G2-E?si=MZfOeB4TejokyK7t" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+</div>
+  <div class="col-md-6">
+      <div class="contact">
+        <h3>Contact Us</h3>
+
+        <input type="text" class="form-control" placeholder="Enter Name"><br>
+        <textarea class="form-control" rows="6" placeholder="Enter Address"></textarea><br>
+        <input type="email" class="form-control" placeholder="Enter Email"><br>
+        <input type="text" class="form-control" placeholder="Enter Phone">
+
+        <button class="btn btn-primary mt-2">Submit</button>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+</div><br>
+
+
+
+
+
+
+<div id="dd" style="background-color: black; color: white;height: 50px; text-align: center;padding: 10px;">@HOTEL DETAILS
 
     </div>
 
-    <!-- <footer style="background-color: black;">hjfbshb</footer> -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> 
    
 </body>
